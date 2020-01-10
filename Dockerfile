@@ -9,3 +9,4 @@ RUN go get -u github.com/golang/dep/cmd/dep
 COPY ./ ${PROJECT_PATH}
 RUN export PATH=$PATH:`go env GOHOSTOS`-`go env GOHOSTARCH` \
     && dep ensure \
+    && go test $(go list ./... | grep -v /vendor/)
