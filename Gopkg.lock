@@ -4,3 +4,5 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/araddon/dateparse"
+  packages = ["."]
