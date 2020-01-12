@@ -7,3 +7,6 @@
   name = "github.com/araddon/dateparse"
   packages = ["."]
   revision = "ffccba6ba2a60949120f25db8949a79dd31abeb2"
+
+[[projects]]
+  name = "github.com/google/go-cmp"
