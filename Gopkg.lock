@@ -10,3 +10,5 @@
 
 [[projects]]
   name = "github.com/google/go-cmp"
+  packages = [
+    "cmp",
