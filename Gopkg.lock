@@ -14,3 +14,4 @@
     "cmp",
     "cmp/internal/diff",
     "cmp/internal/function",
+    "cmp/internal/value"
