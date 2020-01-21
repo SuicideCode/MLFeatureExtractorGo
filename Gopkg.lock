@@ -15,3 +15,6 @@
     "cmp/internal/diff",
     "cmp/internal/function",
     "cmp/internal/value"
+  ]
+  revision = "3af367b6b30c263d47e8895973edcca9a49cf029"
+  version = "v0.2.0"
