@@ -12,3 +12,5 @@
   name = "github.com/google/go-cmp"
   packages = [
     "cmp",
+    "cmp/internal/diff",
+    "cmp/internal/function",
