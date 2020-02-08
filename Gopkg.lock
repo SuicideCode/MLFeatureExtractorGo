@@ -22,3 +22,4 @@
 [[projects]]
   name = "github.com/spaolacci/murmur3"
   packages = ["."]
+  revision = "9f5d223c60793748f04a9d5b4b4eacddfc1f755d"
