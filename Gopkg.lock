@@ -24,3 +24,8 @@
   packages = ["."]
   revision = "9f5d223c60793748f04a9d5b4b4eacddfc1f755d"
   version = "v1.1"
+
+[solve-meta]
+  analyzer-name = "dep"
+  analyzer-version = 1
+  inputs-digest = "904ce03078641f87b4d65d2b53a7fc6eee63096afd45ac1f85349a5f6699e6d1"
