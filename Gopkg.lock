@@ -29,3 +29,5 @@
   analyzer-name = "dep"
   analyzer-version = 1
   inputs-digest = "904ce03078641f87b4d65d2b53a7fc6eee63096afd45ac1f85349a5f6699e6d1"
+  solver-name = "gps-cdcl"
+  solver-version = 1
