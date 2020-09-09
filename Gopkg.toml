@@ -12,4 +12,4 @@
 #
 # [[constraint]]
 #   name = "github.com/user/project2"
-#   branch 
+#   branch =
