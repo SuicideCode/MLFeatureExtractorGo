@@ -13,4 +13,4 @@
 # [[constraint]]
 #   name = "github.com/user/project2"
 #   branch = "dev"
-#   source = "github.com/myfor
+#   source = "github.com/myfork/p
