@@ -17,4 +17,4 @@
 #
 # [[override]]
 #   name = "github.com/x/y"
-#   version = "
+#   version = "2
