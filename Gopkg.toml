@@ -21,4 +21,4 @@
 #
 # [prune]
 #   non-go = false
-#   go-tests
+#   go-tests 
