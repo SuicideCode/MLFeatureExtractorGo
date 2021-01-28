@@ -22,4 +22,4 @@
 # [prune]
 #   non-go = false
 #   go-tests = true
-#   unused-packages = tr
+#   unused-packages = true
