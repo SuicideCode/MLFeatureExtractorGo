@@ -28,4 +28,4 @@
 
 [prune]
   go-tests = true
-  unused-packag
+  unused-packages 
