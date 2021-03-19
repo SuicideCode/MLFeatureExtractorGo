@@ -28,3 +28,5 @@
       "Source" form shall mean the preferred form for making modifications,
       including but not limited to software source code, documentation
       source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
