@@ -30,3 +30,4 @@
       source, and configuration files.
 
       "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
