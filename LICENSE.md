@@ -38,3 +38,5 @@
       Object form, made available under the License, as indicated by a
       copyright notice that is included in or attached to the work
       (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
