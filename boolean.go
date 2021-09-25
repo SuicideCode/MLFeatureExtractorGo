@@ -23,3 +23,6 @@ func ExtractBoolean(field, boolean string) (string, error) {
 	} else if boolean == "true" ||
 		boolean == "True" ||
 		boolean == "1" ||
+		boolean == "yes" ||
+		boolean == "Yes" {
+		return fmt.Sprintf("%d:%d", featureID, 1), nil
