@@ -16,3 +16,6 @@ func ExtractBoolean(field, boolean string) (string, error) {
 
 	if boolean == "false" ||
 		boolean == "False" ||
+		boolean == "0" ||
+		boolean == "no" ||
+		boolean == "No" {
