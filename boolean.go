@@ -26,3 +26,5 @@ func ExtractBoolean(field, boolean string) (string, error) {
 		boolean == "yes" ||
 		boolean == "Yes" {
 		return fmt.Sprintf("%d:%d", featureID, 1), nil
+	}
+	return "", errors.New("could not match bool")
