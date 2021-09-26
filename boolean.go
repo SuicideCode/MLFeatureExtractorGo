@@ -28,3 +28,4 @@ func ExtractBoolean(field, boolean string) (string, error) {
 		return fmt.Sprintf("%d:%d", featureID, 1), nil
 	}
 	return "", errors.New("could not match bool")
+}
