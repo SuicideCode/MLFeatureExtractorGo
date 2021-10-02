@@ -6,3 +6,5 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 )
+
+func TestExtractBoolean(t *testing.T) {
