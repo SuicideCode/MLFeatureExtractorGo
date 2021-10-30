@@ -18,3 +18,8 @@ func TestExtractBoolean(t *testing.T) {
 
 	text = "true"
 	expected = "-1235294128:1"
+	got, _ = ExtractBoolean("IsBad", text)
+	if diff := cmp.Diff(expected, got); diff != "" {
+		t.Errorf("unexpected difference: (-got +want)\n%s", diff)
+	}
+}
