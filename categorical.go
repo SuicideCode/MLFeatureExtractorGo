@@ -12,3 +12,4 @@ import (
 func ExtractCategorical(field, category string) string {
 	featureID := int32(murmur3.Sum32([]byte(uniqueHashPrefixStr + field + category)))
 	return fmt.Sprintf("%d:%d", featureID, 1)
+}
