@@ -8,3 +8,5 @@ import (
 )
 
 func TestExtractCategorical(t *testing.T) {
+
+	expected := "-1661759407:1"
