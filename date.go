@@ -14,3 +14,5 @@ import (
 // each with a deterministic feature id
 func ExtractDate(field, date string) ([]string, error) {
 	var out []string
+
+	dt, err := dateparse.ParseAny(date)
