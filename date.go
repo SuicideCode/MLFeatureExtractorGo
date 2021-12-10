@@ -16,3 +16,6 @@ func ExtractDate(field, date string) ([]string, error) {
 	var out []string
 
 	dt, err := dateparse.ParseAny(date)
+	if err != nil {
+		return out, err
+	}
