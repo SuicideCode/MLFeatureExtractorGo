@@ -26,3 +26,4 @@ func ExtractDate(field, date string) ([]string, error) {
 
 	monthOfYear := dt.Month()
 	monthOfYearFeatureID := int32(murmur3.Sum32([]byte(uniqueHashPrefixStr + field + "monthOfYear")))
+	out = append(out, fmt.Sprintf("%d:%f", monthOfYearFeatureID, float32(monthOfYear)/12))
