@@ -1,1 +1,1 @@
-package featu
+package feature
