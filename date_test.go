@@ -3,4 +3,4 @@ package featuremill
 import (
 	"testing"
 
-	"github.
+	"github.com
