@@ -3,4 +3,4 @@ package featuremill
 import (
 	"testing"
 
-	"github.com/google/go-cmp
+	"github.com/google/go-cmp/c
