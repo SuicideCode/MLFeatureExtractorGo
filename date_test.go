@@ -6,4 +6,4 @@ import (
 	"github.com/google/go-cmp/cmp"
 )
 
-fun
+func T
