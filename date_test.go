@@ -6,4 +6,4 @@ import (
 	"github.com/google/go-cmp/cmp"
 )
 
-func TestExtractDate(t *testin
+func TestExtractDate(t *testing.T
