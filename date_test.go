@@ -8,4 +8,4 @@ import (
 
 func TestExtractDate(t *testing.T) {
 
-	t
+	text
