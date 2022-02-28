@@ -8,4 +8,4 @@ import (
 
 func TestExtractDate(t *testing.T) {
 
-	text := "201
+	text := "2018-0
