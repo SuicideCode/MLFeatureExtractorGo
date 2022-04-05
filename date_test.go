@@ -11,4 +11,4 @@ func TestExtractDate(t *testing.T) {
 	text := "2018-03-05T03:12:14"
 
 	expected := []string{
-		"-627773727:0.1
+		"-627773727:0.16666
