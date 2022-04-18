@@ -12,4 +12,4 @@ func TestExtractDate(t *testing.T) {
 
 	expected := []string{
 		"-627773727:0.166667",
-		"210877497:0.
+		"210877497:0.250
