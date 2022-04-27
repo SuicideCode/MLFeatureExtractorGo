@@ -14,3 +14,5 @@ func TestExtractDate(t *testing.T) {
 		"-627773727:0.166667",
 		"210877497:0.250000",
 	}
+
+	g
