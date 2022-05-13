@@ -15,4 +15,4 @@ func TestExtractDate(t *testing.T) {
 		"210877497:0.250000",
 	}
 
-	got, _ := ExtractDate
+	got, _ := ExtractDate("
