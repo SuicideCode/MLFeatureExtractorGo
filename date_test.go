@@ -16,3 +16,5 @@ func TestExtractDate(t *testing.T) {
 	}
 
 	got, _ := ExtractDate("@timestamp", text)
+
+	i
