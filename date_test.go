@@ -17,4 +17,4 @@ func TestExtractDate(t *testing.T) {
 
 	got, _ := ExtractDate("@timestamp", text)
 
-	if dif
+	if diff := 
