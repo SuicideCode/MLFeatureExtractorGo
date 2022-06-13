@@ -17,4 +17,4 @@ func TestExtractDate(t *testing.T) {
 
 	got, _ := ExtractDate("@timestamp", text)
 
-	if diff := cmp.Diff(expecte
+	if diff := cmp.Diff(expected, 
