@@ -8,3 +8,7 @@ import (
 
 	"github.com/dustin-decker/featuremill"
 )
+
+func main() {
+
+	var features []string
