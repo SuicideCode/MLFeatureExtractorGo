@@ -12,3 +12,9 @@ import (
 func main() {
 
 	var features []string
+
+	ip, _ := featuremill.ExtractIP("src_ip", "127.0.0.1")
+	features = append(features, ip)
+
+	user := featuremill.ExtractCategorical("username", "emily")
+	features = append(features, user)
