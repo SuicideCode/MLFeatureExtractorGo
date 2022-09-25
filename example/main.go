@@ -20,3 +20,4 @@ func main() {
 	features = append(features, user)
 
 	desc := featuremill.ExtractText("user terminated the session", " ")
+	features = append(features, desc...)
