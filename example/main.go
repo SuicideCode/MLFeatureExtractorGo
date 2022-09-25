@@ -18,3 +18,5 @@ func main() {
 
 	user := featuremill.ExtractCategorical("username", "emily")
 	features = append(features, user)
+
+	desc := featuremill.ExtractText("user terminated the session", " ")
