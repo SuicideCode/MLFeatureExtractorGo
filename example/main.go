@@ -21,3 +21,8 @@ func main() {
 
 	desc := featuremill.ExtractText("user terminated the session", " ")
 	features = append(features, desc...)
+
+	sort.Strings(features)
+	sample := "0 " + strings.Join(features, " ")
+
+	fmt.Println(sample)
