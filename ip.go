@@ -6,3 +6,6 @@ import (
 	"errors"
 	"fmt"
 	"net"
+
+	"github.com/spaolacci/murmur3"
+)
