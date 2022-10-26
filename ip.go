@@ -13,3 +13,5 @@ import (
 // ExtractIP returns a vector that is a scaled integer representation of IPv4 and IPv6 IPs
 // with a deterministic feature ID
 func ExtractIP(field, addr string) (string, error) {
+	ip := net.ParseIP(addr)
+	if ip != nil {
