@@ -15,3 +15,5 @@ import (
 func ExtractIP(field, addr string) (string, error) {
 	ip := net.ParseIP(addr)
 	if ip != nil {
+		if len(ip) == 16 {
+			intRep := binary.BigEndian.Uint32(ip[12:16])
