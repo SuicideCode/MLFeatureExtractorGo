@@ -19,3 +19,5 @@ func ExtractIP(field, addr string) (string, error) {
 			intRep := binary.BigEndian.Uint32(ip[12:16])
 			// deterministic collision resistant feature id
 			featureID := int32(murmur3.Sum32([]byte(uniqueHashPrefixStr + field)))
+			// TODO: need to scale intRep
+			res := fmt.Sprintf("%d:%d", featureID, intRep)
