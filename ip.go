@@ -25,3 +25,5 @@ func ExtractIP(field, addr string) (string, error) {
 		}
 		return "", nil
 	}
+	return "", errors.New("not a valid IP given")
+}
