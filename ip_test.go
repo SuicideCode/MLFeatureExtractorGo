@@ -12,3 +12,5 @@ func TestExtractIP(t *testing.T) {
 	text := "127.0.0.1"
 
 	expected := "1799088460:2130706433"
+
+	got, _ := ExtractIP("src_ip", text)
