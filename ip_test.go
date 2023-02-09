@@ -14,3 +14,6 @@ func TestExtractIP(t *testing.T) {
 	expected := "1799088460:2130706433"
 
 	got, _ := ExtractIP("src_ip", text)
+
+	if diff := cmp.Diff(expected, got); diff != "" {
+		t.Errorf("unexpected difference: (-got +want)\n%s", diff)
