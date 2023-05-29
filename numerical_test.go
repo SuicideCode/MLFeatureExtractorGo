@@ -8,3 +8,5 @@ import (
 )
 
 func TestExtractNumericalMaxMin(t *testing.T) {
+
+	expected := "359062843:0.839898"
