@@ -6,3 +6,5 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 )
+
+func TestExtractNumericalMaxMin(t *testing.T) {
