@@ -15,3 +15,5 @@ func TestExtractNumericalMaxMin(t *testing.T) {
 
 	if diff := cmp.Diff(expected, got); diff != "" {
 		t.Errorf("unexpected difference: (-got +want)\n%s", diff)
+	}
+}
