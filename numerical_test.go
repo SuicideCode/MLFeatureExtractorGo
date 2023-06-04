@@ -17,3 +17,7 @@ func TestExtractNumericalMaxMin(t *testing.T) {
 		t.Errorf("unexpected difference: (-got +want)\n%s", diff)
 	}
 }
+
+func TestExtractNumerical(t *testing.T) {
+
+	expected := "359062843:0.960035"
