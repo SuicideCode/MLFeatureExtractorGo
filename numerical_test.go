@@ -21,3 +21,5 @@ func TestExtractNumericalMaxMin(t *testing.T) {
 func TestExtractNumerical(t *testing.T) {
 
 	expected := "359062843:0.960035"
+
+	got := ExtractNumerical("error_rate", 88.1, 22, 100.7)
