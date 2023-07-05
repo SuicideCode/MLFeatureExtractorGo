@@ -9,3 +9,4 @@ import (
 )
 
 // ExtractText returns a slice of "featureID:1" strings for each token in the string
+func ExtractText(text, delim string) []string {
