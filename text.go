@@ -12,3 +12,7 @@ import (
 func ExtractText(text, delim string) []string {
 	features := []string{}
 	texts := strings.Split(text, delim)
+	for _, v := range texts {
+		// feature id per word
+		// this works okay for sparse technical logs
+		// otherwise you might want to use an IDF transformation
