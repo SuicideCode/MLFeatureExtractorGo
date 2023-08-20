@@ -22,3 +22,4 @@ func ExtractText(text, delim string) []string {
 	}
 
 	return features
+}
