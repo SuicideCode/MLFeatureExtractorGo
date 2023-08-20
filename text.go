@@ -16,3 +16,5 @@ func ExtractText(text, delim string) []string {
 		// feature id per word
 		// this works okay for sparse technical logs
 		// otherwise you might want to use an IDF transformation
+		// to under-weight less meaningfull words/tokens
+		fID := int32(murmur3.Sum32([]byte(v)))
