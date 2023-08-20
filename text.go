@@ -18,3 +18,7 @@ func ExtractText(text, delim string) []string {
 		// otherwise you might want to use an IDF transformation
 		// to under-weight less meaningfull words/tokens
 		fID := int32(murmur3.Sum32([]byte(v)))
+		features = append(features, fmt.Sprintf("%d:1", fID))
+	}
+
+	return features
