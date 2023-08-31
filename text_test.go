@@ -16,3 +16,7 @@ func TestExtractText(t *testing.T) {
 		"650894796:1",
 		"232538530:1",
 	}
+
+	got := ExtractText(text, " ")
+
+	if diff := cmp.Diff(expected, got); diff != "" {
