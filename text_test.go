@@ -14,3 +14,5 @@ func TestExtractText(t *testing.T) {
 	expected := []string{
 		"164984899:1",
 		"650894796:1",
+		"232538530:1",
+	}
