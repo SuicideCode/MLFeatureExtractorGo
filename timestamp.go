@@ -17,3 +17,5 @@ func ExtractTimestamp(field, timestamp string) ([]string, error) {
 
 	dt, err := dateparse.ParseAny(timestamp)
 	if err != nil {
+		return out, err
+	}
