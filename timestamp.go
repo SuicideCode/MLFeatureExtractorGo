@@ -14,3 +14,6 @@ import (
 // each with a deterministic feature ID
 func ExtractTimestamp(field, timestamp string) ([]string, error) {
 	var out []string
+
+	dt, err := dateparse.ParseAny(timestamp)
+	if err != nil {
