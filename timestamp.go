@@ -19,3 +19,5 @@ func ExtractTimestamp(field, timestamp string) ([]string, error) {
 	if err != nil {
 		return out, err
 	}
+
+	dayOfWeek := int(dt.Weekday())
