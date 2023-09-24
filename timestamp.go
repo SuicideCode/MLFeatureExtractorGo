@@ -21,3 +21,5 @@ func ExtractTimestamp(field, timestamp string) ([]string, error) {
 	}
 
 	dayOfWeek := int(dt.Weekday())
+	dayOfWeekFeatureID := int32(murmur3.Sum32([]byte(uniqueHashPrefixStr + field + "dayOfWeek")))
+	out = append(out, fmt.Sprintf("%d:%f", dayOfWeekFeatureID, float32(dayOfWeek)/6))
