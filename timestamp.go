@@ -31,3 +31,5 @@ func ExtractTimestamp(field, timestamp string) ([]string, error) {
 	minuteOfHour := dt.Minute()
 	minuteOfHourFeatureID := int32(murmur3.Sum32([]byte(uniqueHashPrefixStr + field + "minuteOfHour")))
 	out = append(out, fmt.Sprintf("%d:%f", minuteOfHourFeatureID, float32(minuteOfHour)/59))
+
+	return out, nil
