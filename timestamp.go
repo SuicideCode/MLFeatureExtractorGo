@@ -33,3 +33,4 @@ func ExtractTimestamp(field, timestamp string) ([]string, error) {
 	out = append(out, fmt.Sprintf("%d:%f", minuteOfHourFeatureID, float32(minuteOfHour)/59))
 
 	return out, nil
+}
