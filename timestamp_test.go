@@ -6,3 +6,5 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 )
+
+func TestExtractTimestamp(t *testing.T) {
