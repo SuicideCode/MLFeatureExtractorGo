@@ -14,3 +14,5 @@ func TestExtractTimestamp(t *testing.T) {
 	expected := []string{
 		"-627773727:0.166667",
 		"2046480298:0.130435",
+		"-939123019:0.203390",
+	}
