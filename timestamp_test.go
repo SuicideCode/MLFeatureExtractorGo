@@ -16,3 +16,8 @@ func TestExtractTimestamp(t *testing.T) {
 		"2046480298:0.130435",
 		"-939123019:0.203390",
 	}
+
+	got, _ := ExtractTimestamp("@timestamp", text)
+
+	if diff := cmp.Diff(expected, got); diff != "" {
+		t.Errorf("unexpected difference: (-got +want)\n%s", diff)
